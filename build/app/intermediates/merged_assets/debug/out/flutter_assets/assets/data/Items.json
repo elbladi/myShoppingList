@@ -1,0 +1,100 @@
+{
+  "primero": [
+    {
+      "id": "p1",
+      "inCart": false,
+      "name": "aguacate",
+      "quantity": 0,
+      "image": "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/beli%2Faguacate.png?alt=media&token=c5782348-e36f-4fe4-8bda-a69aeaabf717"
+    },
+    {
+      "id": "p2",
+      "inCart": false,
+      "name": "aceite",
+      "quantity": 0,
+      "image": "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/beli%2Faceite.png?alt=media&token=b704d604-1edd-49e8-a5ce-14defabe6aa0"
+    },
+    {
+      "id": "p3",
+      "inCart": false,
+      "name": "agua de coco",
+      "quantity": 0,
+      "image": "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/beli%2Fagua_coco.png?alt=media&token=5fb7a2f2-5789-4c61-a6c8-1a1f89971698"
+    },
+    {
+      "id": "p4",
+      "inCart": false,
+      "name": "cebolla",
+      "quantity": 0,
+      "image": "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/beli%2Fajo.png?alt=media&token=530d2231-5858-4377-928a-da42d13821e3"
+    },
+    {
+      "id": "p5",
+      "inCart": false,
+      "name": "coca",
+      "quantity": 0,
+      "image": "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/beli%2Fcoca.png?alt=media&token=31ec738d-0f55-447f-8433-90b42ec2d896"
+    },
+    {
+      "id": "p6",
+      "inCart": false,
+      "name": "mostaza",
+      "quantity": 0,
+      "image": "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/beli%2Fmostaza.png?alt=media&token=6aff351e-569e-4a45-af25-16875d3f1bee"
+    },
+    {
+      "id": "p7",
+      "inCart": false,
+      "name": "plastico",
+      "quantity": 0,
+      "image": "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/bladi%2Fplastico.png?alt=media&token=41ed2177-4efe-4f46-adb1-c5c42d09b54b"
+    },
+    {
+      "id": "p8",
+      "inCart": false,
+      "name": "miel",
+      "quantity": 0,
+      "image": "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/beli%2Fmiel.png?alt=media&token=786f0119-ab84-441f-a9f5-7e030a1bd686"
+    },
+    {
+      "id": "p9",
+      "inCart": false,
+      "name": "maseca",
+      "quantity": 0,
+      "image": "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/beli%2Fmaseca.png?alt=media&token=e8c12391-20e8-4d20-b8f7-bbe527e0cbc2"
+    },
+    {
+      "id": "p10",
+      "inCart": false,
+      "name": "limon",
+      "quantity": 0,
+      "image": "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/beli%2Flimon.png?alt=media&token=5634b105-9bc1-4fec-ba14-085eee480f0a"
+    }
+  ],
+  "segundo": [
+    {
+      "id": "s1",
+      "name": "aguacate",
+      "quantity": 0,
+      "image": "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/beli%2Faguacate.png?alt=media&token=c5782348-e36f-4fe4-8bda-a69aeaabf717"
+    },
+    {
+      "id": "s2",
+      "name": "aceite",
+      "quantity": 0,
+      "image": "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/beli%2Faceite.png?alt=media&token=b704d604-1edd-49e8-a5ce-14defabe6aa0"
+    },
+    {
+      "id": "s3",
+      "name": "agua de coco",
+      "quantity": 0,
+      "image": "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/beli%2Fagua_coco.png?alt=media&token=5fb7a2f2-5789-4c61-a6c8-1a1f89971698"
+    },
+    {
+      "id": "s4",
+      "name": "cebolla",
+      "quantity": 0,
+      "image": "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/beli%2Fajo.png?alt=media&token=530d2231-5858-4377-928a-da42d13821e3"
+    }
+  ]
+}

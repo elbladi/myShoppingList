@@ -1,0 +1,59 @@
+[
+  {
+    "id": "u1",
+    "name": "Beli",
+    "itemListId": "primero",
+    "cartId": "primero",
+    "config": {
+      "background": "https://ourshoppinglist.netlify.app/static/media/fondoBeli.2c3fe939.jpg",
+      "fontColor": {
+        "r": 230,
+        "g": 149,
+        "b": 151
+      },
+      "firstTime": true
+    },
+    "backgrounds": [
+      "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/backs%2Faqua.png?alt=media&token=d19bf3a4-5c58-4277-80d2-65bd02e129f1",
+      "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/backs%2Fblue.png?alt=media&token=d2f69654-0457-4a75-b92d-e11ff1447503",
+      "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/backs%2Fcool.png?alt=media&token=6ffcd964-613b-4bb2-bf0d-129eb6f2ea22",
+      "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/backs%2Fcool2.png?alt=media&token=5bb4234a-797b-4671-8965-c2ef178e0fad",
+      "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/backs%2Fmain.png?alt=media&token=37fe11a8-52df-4060-9953-14859861bd81",
+      "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/backs%2Fsecond.png?alt=media&token=69ca8155-cc9e-48ab-b476-8ecc35826bb9",
+      "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/backs%2Fsmooth.png?alt=media&token=43527ee5-4614-419a-a14f-f27a93df2ef2",
+      "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/backs%2Fwhite.png?alt=media&token=c5b1820a-1e25-41f2-b2be-07aca1a91baa"
+    ]
+  },
+  {
+    "id": "u2",
+    "name": "Bladi",
+    "itemListId": "primero",
+    "cartId": "primero",
+    "config": {
+      "background": "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/backs%2Fcool2.png?alt=media&token=5bb4234a-797b-4671-8965-c2ef178e0fad",
+      "fontColor": "0xff00acc1",
+      "firstTime": true
+    },
+    "backgrounds": [
+      "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/backs%2Faqua.png?alt=media&token=d19bf3a4-5c58-4277-80d2-65bd02e129f1",
+      "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/backs%2Fblue.png?alt=media&token=d2f69654-0457-4a75-b92d-e11ff1447503",
+      "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/backs%2Fcool.png?alt=media&token=6ffcd964-613b-4bb2-bf0d-129eb6f2ea22",
+      "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/backs%2Fcool2.png?alt=media&token=5bb4234a-797b-4671-8965-c2ef178e0fad",
+      "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/backs%2Fmain.png?alt=media&token=37fe11a8-52df-4060-9953-14859861bd81",
+      "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/backs%2Fsecond.png?alt=media&token=69ca8155-cc9e-48ab-b476-8ecc35826bb9",
+      "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/backs%2Fsmooth.png?alt=media&token=43527ee5-4614-419a-a14f-f27a93df2ef2",
+      "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/backs%2Fwhite.png?alt=media&token=c5b1820a-1e25-41f2-b2be-07aca1a91baa"
+    ]
+  },
+  {
+    "id": "u1",
+    "name": "Estrange",
+    "itemListId": "segundo",
+    "cartId": "segundo",
+    "config": {
+      "background": "https://ourshoppinglist.netlify.app/static/media/fondoBladi.d187718a.png",
+      "fontColor": "fontColor",
+      "firstTime": true
+    }
+  }
+]

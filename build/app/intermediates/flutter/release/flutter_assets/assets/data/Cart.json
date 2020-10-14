@@ -1,0 +1,14 @@
+[
+  {
+    "id": "c1",
+    "name": "aguacate",
+    "image": "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/beli%2Faguacate.png?alt=media&token=c5782348-e36f-4fe4-8bda-a69aeaabf717",
+    "checked": false
+  },
+  {
+    "id": "c2",
+    "name": "cebolla",
+    "image": "https://firebasestorage.googleapis.com/v0/b/myshoppinglist-90365.appspot.com/o/beli%2Fajo.png?alt=media&token=530d2231-5858-4377-928a-da42d13821e3",
+    "checked": false
+  }
+]
