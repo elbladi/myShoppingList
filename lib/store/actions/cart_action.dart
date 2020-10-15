@@ -106,7 +106,7 @@ Future<bool> addTempItemToCart(String name) async {
 
 Future<void> getCartFromDB(String cartId) async {
   try {
-    getFromDatabase(cartId);
+    await getFromDatabase(cartId);
   } catch (err) {
     print('El horror!');
     print(err);
@@ -115,7 +115,7 @@ Future<void> getCartFromDB(String cartId) async {
 
 Future<void> cleanCart(Store<AppState> store) async {
   try {
-    removeItemsMarkedAsChecked();
+    await removeItemsMarkedAsChecked();
   } catch (err) {
     print(err);
   }

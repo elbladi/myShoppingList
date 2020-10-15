@@ -58,10 +58,12 @@ Future<bool> login(Login credentials) async {
     return true;
   } on LoginFailException catch (err) {
     Redux.store.dispatch(SetUserState(UserState(isLoading: false)));
+    Redux.store.dispatch(SetLoginState(LoginState(logged: false)));
     print(err);
     print('tercero');
     return false;
   } catch (e) {
+    Redux.store.dispatch(SetLoginState(LoginState(logged: false)));
     Redux.store.dispatch(SetUserState(UserState(isLoading: false)));
     print(e);
     return false;

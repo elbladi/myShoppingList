@@ -29,9 +29,9 @@ Future<void> verifyUserIsLoggedIn() async {
     await updateUserInLocalDB(loggedUser);
   }
 
-  dispatchLoggedUser(loggedUser);
   await getListOfItems(loggedUser);
   await getListOfCart(loggedUser);
+  dispatchLoggedUser(loggedUser);
   Redux.store.dispatch(SetLoginState(LoginState(logged: true)));
 }
 
@@ -211,10 +211,10 @@ Future<void> tryLogginOnline(Login credentials) async {
     await logUserToFirestore(email, pass);
     User loggedUser = await getUserFromFirestore(email, pass);
 
-    dispatchLoggedUser(loggedUser);
     await updateUserInLocalDB(loggedUser);
     await getListOfItems(loggedUser);
     await getListOfCart(loggedUser);
+    dispatchLoggedUser(loggedUser);
     Redux.store.dispatch(SetLoginState(LoginState(logged: true)));
   } catch (err) {
     throw new Exception('Login fail');

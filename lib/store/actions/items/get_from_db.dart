@@ -10,7 +10,7 @@ import 'package:myShoppingList/store/states/items_state.dart';
 import '../../store.dart';
 import '../items_action.dart';
 
-void getItemsAndImages(String userList) async {
+Future<void> getItemsAndImages(String userList) async {
   List<Item> listOfItems = [];
 
   if (isDeviceOffline()) {

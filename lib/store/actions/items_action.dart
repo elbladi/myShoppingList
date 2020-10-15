@@ -26,7 +26,7 @@ Future<void> readyItemsFromDB(String userList) async {
   initLoading();
 
   try {
-    getItemsAndImages(userList);
+    await getItemsAndImages(userList);
   } catch (error) {
     print('items_action error!');
     print(error);
@@ -188,10 +188,10 @@ Future<String> updateItem(Item item, File pickedImage) async {
   }
 }
 
-Future<void> updateLocalList(Store<AppState> store, List<Item> itemList) async {
+Future<void> updateLocalList(List<Item> itemList) async {
   try {
     if (itemList.length > 0) {
-      store.dispatch(SetItemsState(ItemsState(itemList: itemList)));
+      Redux.store.dispatch(SetItemsState(ItemsState(itemList: itemList)));
     }
   } catch (err) {
     print(err);

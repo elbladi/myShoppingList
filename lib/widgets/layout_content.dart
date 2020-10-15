@@ -80,11 +80,7 @@ class MainScaffold extends StatelessWidget {
                       decoration: BoxDecoration(
                         image: DecorationImage(
                           image: connected
-                              ? NetworkImage(
-                                  _user.config.background == null
-                                      ? 'https://reactjs.org/logo-og.png'
-                                      : _user.config.background,
-                                )
+                              ? NetworkImage(_user.config.background)
                               : AssetImage('assets/icons/cool2.png'),
                           fit: BoxFit.cover,
                         ),

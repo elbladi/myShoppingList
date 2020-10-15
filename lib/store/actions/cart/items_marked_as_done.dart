@@ -8,11 +8,11 @@ import 'package:myShoppingList/store/store.dart';
 
 import '../cart_action.dart';
 
-void removeItemsMarkedAsChecked() {
+Future<void> removeItemsMarkedAsChecked() async {
   if (cartIsEmpty())
     return;
   else
-    updateCart();
+    await updateCart();
 }
 
 bool cartIsEmpty() {
@@ -23,13 +23,13 @@ bool cartIsEmpty() {
     return false;
 }
 
-void updateCart() {
+Future<void> updateCart() async {
   List<Cart> cart = Redux.store.state.cartState.getCart();
   List<Cart> itemsInCartNotChecked = getNotCheckedItems(cart);
   List<String> listOfCheckedItemsId = getListOfCheckedItemsIds(cart);
-  updateDatabases(itemsInCartNotChecked);
+  await updateDatabases(itemsInCartNotChecked);
   Redux.store.dispatch(SetCartState(CartState(cart: itemsInCartNotChecked)));
-  updateListOfItems(listOfCheckedItemsId);
+  await updateListOfItems(listOfCheckedItemsId);
 }
 
 List<Cart> getNotCheckedItems(List<Cart> cart) {
@@ -46,7 +46,7 @@ List<String> getListOfCheckedItemsIds(List<Cart> cart) {
   return ids;
 }
 
-void updateDatabases(List<Cart> cart) {
+Future<void> updateDatabases(List<Cart> cart) async {
   updateFirestore(cart);
   updateLocalDB();
 }
@@ -61,9 +61,9 @@ void updateFirestore(List<Cart> cart) {
       .update({'items': formatedCart});
 }
 
-void updateLocalDB() async {
+Future<void> updateLocalDB() async {
   final db = await DBHelper.database();
-  db.delete(
+  await db.delete(
     'cart',
     where: 'checked = ?',
     whereArgs: [1],
@@ -156,5 +156,3 @@ Future<void> updateListInLocalDB(List<String> itemsId) async {
     );
   });
 }
-
-

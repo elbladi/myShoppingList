@@ -7,7 +7,7 @@ import 'package:myShoppingList/store/states/cart_state.dart';
 import '../../store.dart';
 import '../cart_action.dart';
 
-void getFromDatabase(String userCartId) async {
+Future<void> getFromDatabase(String userCartId) async {
   List<Cart> cart = [];
 
   if (isDeviceOffline())

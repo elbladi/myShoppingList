@@ -86,8 +86,9 @@ class ListGrid extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final String userListId = Redux.store.state.userState.user.itemListId; 
     DocumentReference items =
-        FirebaseFirestore.instance.collection('items').doc('primero');
+        FirebaseFirestore.instance.collection('items').doc(userListId);
 
     return StreamBuilder<DocumentSnapshot>(
         stream: items.snapshots(),
@@ -122,7 +123,7 @@ class ListGrid extends StatelessWidget {
             );
           });
 
-          Redux.store.dispatch(updateLocalList(Redux.store, displayedList));
+          updateLocalList(displayedList);
 
           if (filterApplied.isNotEmpty) {
             String byName = Redux.store.state.itemsState.filterName;
